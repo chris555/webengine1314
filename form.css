@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-#searchfield{
+#search{
 	
 	height:30px;
 	font-size:24px;
@@ -11,7 +11,7 @@
 }
 
 
-#searchfield:focus{
+#search:focus{
 	
 	background-color: #eee;
 	
