@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+#searchfield{
+	
+	height:30px;
+	font-size:24px;
+	margin-top:5px;
+	
+		
+}
+
+
+#searchfield:focus{
+	
+	background-color: #eee;
+	
+}
+
+
+
+
+#firstbutton{
+	
+	margin-top:25px;
+	height:30px;
+	width: 200px;
+	font-size:20px;
+	
+}
+
+
+#secbutton{
+	
+	margin-top:20px;
+	width: 200px;
+	
+	
+}
+
+
+
+
+
+
+form{
+	
+	
+	width:380px;
+	margin:auto;
+	background-color:#f6f6f6
+	
+	
+}
+
+
+h1 {
+	
+	text-decoration:underline;
+	
+	
+	
+}
+
