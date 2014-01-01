@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>modal</title>
+
+</head>
+<body>
+
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+
+
+
+<!-- MODAL: eine klasse zb für <div>. erzeugt ein erhebnung, sodass div wie zusätzliches fenster wirkt. Kann unterteilt werden -->
+
+
+<div class="well">
+<a href="#firstModal" class="btn" data-toggle="modal">öffnen...</a>    <!-- druck des knopfs "bewegt" ein modal (data-toggle) und zwar das mit dem Namen firstModal (href) - bezieht sich auf ID in modaldefinition-->
+</div>
+
+
+	<div class="modal hide fade" id="firstModal" aria-hidden="true">   <!-- MODAL erzeugt modal in diesem div. HIDE versteckt es zu beginn. FADE erzuegt blendeffekt bei ein und ausblenden -->
+	
+														<!--  aria-hidden versteckt element semantisch?. zb vor screenreadern -->
+	
+		<div class="modal-header">   <!-- kopf-bereich des modal -->
+		
+			<h3>Login Fenster</h3>
+		
+		</div>
+	
+		
+		<div class="modal-body">   <!-- haupt-bereich des modal -->
+		
+			<form>
+				<label>Login-Email</label>
+				<input type="email" class="span4"/>
+				<label>Password</label>
+				<input type="text" class="span4"/>
+				<br/>
+				<button type="submit" class="btn">Login</button>
+				<button type="reset" class="btn">Clear</button>
+			</form>
+		
+		</div>
+	
+		
+		<div class="modal-footer">   <!-- Fuß-bereich des modal -->
+		
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button> <!-- data-dismiss > wird button gedrückt, wird dieses modal geschlossen -->
+		
+		</div>
+	
+	
+	
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+		
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
