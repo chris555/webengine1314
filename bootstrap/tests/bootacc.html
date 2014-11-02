@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>bootacc</title>
+
+</head>
+<body>
+
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+
+
+
+<!-- formatierung -->
+
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+				
+				
+				
+				<!-- accordion -->
+				
+					<div class="accordion" id="firstaccord">			<!-- ACCORDION macht div zu accordion. Bereitet es vor. noch keine formatierung. erst durch folgeklassen. ID dient zur wiedererkennung -->
+					
+					
+					<!-- erste gruppe (link-inhalt beziehung) -->
+					
+						<div class="accordion-group">					<!-- Inhalt wird accordiongruppe -->
+							<div class="accordion-heading">				<!-- kopf-eintrag -->
+								
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#firstaccord" href="#firstgroup">			<!-- formatiert einen accordion-schalter. toggle schaltet auf collapse("ein"). parent: referenz zu zugehörigem accordion rahmen. HREF referenziert welcher gruppenkörper geöffnet wird  -->
+									Section One
+								</a>
+								
+							</div>
+							
+							<div id="firstgroup" class="accordion-body collapse in">		<!-- formt acc körperrahmen mit der ID firstgroup. COLLAPSE IN definiert, dass rahmen schon ausgefahren ist. Es kann immer nur EIN Rahmen innerhalb eines accordions ausgefahren sein -->
+								<div class="accordion-inner">								<!--  klasse für acc inhalte -->
+									Das ist der Text im ersten Teil, den man sieht, sollte man darauf klicken, um es zu sehen, was man sehen möchte.
+								</div>
+							
+							</div>
+							
+						</div>
+						
+						
+						
+						
+						
+						<!-- zweite gruppe -->
+					
+						<div class="accordion-group">					<!-- Inhalt wird accordiongruppe -->
+							<div class="accordion-heading">				<!-- kopf-eintrag -->
+								
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#firstaccord" href="#secondgroup">			<!-- formatiert einen accordion-schalter. toggle schaltet auf collapse("ein"). parent: referenz zu zugehörigem accordion rahmen. HREF referenziert welcher gruppenkörper geöffnet wird  -->
+									Section Two
+								</a>
+								
+							</div>
+							
+							<div id="secondgroup" class="accordion-body collapse">		<!-- COLLAPSE ohne IN definert, dass rahmen eingefahren ist --> 
+								<div class="accordion-inner">								<!--  klasse für acc inhalte -->
+									Das ist der Text im zweiten Teil, den man sieht, sollte man darauf klicken, um es zu sehen, was man sehen möchte.
+								</div>
+							
+							</div>
+							
+						</div>
+						
+						
+						
+						<!-- dritte gruppe -->
+					
+						<div class="accordion-group">					<!-- Inhalt wird accordiongruppe -->
+							<div class="accordion-heading">				<!-- kopf-eintrag -->
+								
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#firstaccord" href="#thirdgroup">			<!-- formatiert einen accordion-schalter. toggle schaltet auf collapse("ein"). parent: referenz zu zugehörigem accordion rahmen. HREF referenziert welcher gruppenkörper geöffnet wird  -->
+									Section Three
+								</a>
+								
+							</div>
+							
+							<div id="thirdgroup" class="accordion-body collapse">		<!-- COLLAPSE ohne IN definert, dass rahmen eingefahren ist --> 
+								<div class="accordion-inner">								<!--  klasse für acc inhalte -->
+									Das ist der Text im zweiten Teil, den man sieht, sollte man darauf klicken, um es zu sehen, was man sehen möchte.
+								</div>
+							
+							</div>
+							
+						</div>
+						
+						
+						
+						
+						
+					</div>
+				
+				
+				
+				
+				</div>
+			
+			</div>
+		
+		</div>
+
+
+
+
+
+		
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
