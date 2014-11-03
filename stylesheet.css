@@ -1,0 +1,147 @@
+
+body{
+
+	background-color:#BCE6E0;
+	color:#364F4B;
+
+}
+
+
+
+h1{
+
+text-decoration:underline;
+text-align:center;
+
+
+}
+
+
+
+
+h3{
+
+text-decoration:underline;
+text-align:center;
+
+}
+
+
+
+
+
+div{
+
+	
+	width:900px;
+	margin:auto;
+	
+	background-color:#D1A82E;
+	margin-top:150px;
+	margin-bottom:50px;
+}
+
+
+table{
+
+	border-collapse:collapse;
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
+tbody tr th{
+
+	height:35px;
+	width:25%;
+	border-right:3px; 
+	border-right-color:#D1A82E;
+	border-right-style:solid;
+	
+
+}
+
+
+
+.col2{
+
+	width:50%;
+	text-align:center;
+	border-right:1px solid #D1A82E;
+	font-size:0.9em;
+
+	
+}
+
+.col3{
+
+	width:13%;
+	text-align:center;
+	border-right:1px solid #D1A82E;
+	font-size:1.2em;
+
+	
+}
+
+.col4{
+
+	width:12%;
+	font-size:1.5em;
+	text-align:center;
+
+
+	
+}
+
+
+
+p{
+	
+	text-align:center;
+	
+}
+
+
+
+
+.tabhead{
+
+	height:50px;
+	font-size:0.9em;
+	
+
+}
+
+
+.tabrowodd{
+
+	background-color:#DECE9E;
+
+}
+
+
+.tabroweven{
+
+	background-color:#D4BB70;
+
+
+}
+
+
+
+
+#header1{
+
+font-size:32px;
+font-weight:bold;
+text-decoration:underline;
+
+
+}
